@@ -1,0 +1,39 @@
+{
+  "name": "vue-cuba-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "browser-cookies": "^1.2.0",
+    "material-design-icons-iconfont": "^3.0.3",
+    "vue": "^2.5.13",
+    "vue-cuba-app": "^0.1.2",
+    "vue-cuba-entity-list": "^0.1.1",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.0.16",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-beta.6",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
