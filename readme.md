@@ -1,6 +1,9 @@
-Install:
+Start:
 -------
-`npm install vue-cuba-boilerplate@0.1.0 ./ my-app`
+```$xslt
+$ npm install
+$ npm run serve
+```
 
 Screenshots:
 ------------
